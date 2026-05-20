@@ -11,12 +11,7 @@
 
 const toPerform = () => {
     const element = document.querySelector('.alert.alert-danger');
-
-    if (!element) return false;
-
-    const isAllFeaturesBan = element.querySelector('.well.well-sm').innerText.toLowerCase().includes('all features — permanent');
-
-    return isAllFeaturesBan
+    return !!element
 }
 
 
