@@ -18,6 +18,7 @@ const updateUIElement = (dates) => {
     const alertHeader = document.querySelector('.alert.alert-danger > h4');
     if (dates === null) {
         alertHeader.innerText = alertHeader.innerText + '';
+        return;
     }
 
     alertHeader.innerText = alertHeader.innerText.slice(0, -1) + ' | Since: ';
