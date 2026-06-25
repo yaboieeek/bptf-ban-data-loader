@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ban data loader
 // @namespace    eeek
-// @version      1.2.0
+// @version      1.2.1
 // @description  Loads data from rep tf
 // @author       eeek
 // @match        https://backpack.tf/u/*
